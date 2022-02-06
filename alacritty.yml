@@ -194,45 +194,48 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night)
-#colors:
-  # Default colors
-  #primary:
-  #  background: '#1d1f21'
-  #  foreground: '#c5c8c6'
-
-# Colors (Gruvbox dark)
+  # Colors (Darktooth)
 colors:
+
   # Default colors
   primary:
-    # hard contrast: background = '0x1d2021'
-    background: '0x24201e'
-    # soft contrast: background = '0x32302f'
-    foreground: '0xffc9b8'
+    background: '#282828'
+    foreground: '#fdf4c1'
 
   # Normal colors
   normal:
-    black:   '0x98971a'
-    red:     '0xfb4934'
-    green:   '0xd65d0e'
-    yellow:  '0xfabd2f'
-    blue:    '0x928374'
-    magenta: '0xfb4934'
-    cyan:    '0x689d6a'
-    white:   '0xa89984'
+    black:   '#282828'
+    red:     '#9d0006'
+    green:   '#79740e'
+    yellow:  '#b57614'
+    blue:    '#076678'
+    magenta: '#8f3f71'
+    cyan:    '#00a7af'
+    white:   '#fdf4c1'
 
   # Bright colors
   bright:
-    black:   '0x98971a'
-    red:     '0xfb4934'
-    green:   '0x4b4084'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0x928474'
-    
-    # Bright and dim foreground colors
+    black:   '#32302f'
+    red:     '#fb4933'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#3fd7e5'
+    white:   '#ffffc8'
+
+  # Dim colors (Optional)
+  dim:
+    black:   '#1d2021'
+    red:     '#421e1e'
+    green:   '#232b0f'
+    yellow:  '#4d3b27'
+    blue:    '#2b3c44'
+    magenta: '#4e3d45'
+    cyan:    '#205161'
+    white:   '#f4e8ba'
+
+   # Bright and dim foreground colors
     #
     # The dimmed foreground color is calculated automatically if it is not
     # present. If the bright foreground color is not set, or
