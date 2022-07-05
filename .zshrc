@@ -9,7 +9,10 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/muqirn/.oh-my-zsh"
+export ZSH="/Users/malamr/.oh-my-zsh"
+
+#Kubectl config
+export PATH="${PATH}:${HOME}/.krew/bin"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -80,6 +83,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
 	git
 	vi-mode
+	zsh-autosuggestions
+	kubectl 
+	Kube-ps1
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -118,5 +124,7 @@ alias ll='ls -al'
 alias ../='cd ../..'
 alias ll='ls -al'
 alias ../='cd ../..'
-
-
+alias vim='nvim'
+alias k="kubectl"
+alias l="lando"
+alias gs="git status"
